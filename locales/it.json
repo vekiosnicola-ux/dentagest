@@ -1,0 +1,296 @@
+{
+  "app": {
+    "name": "DentaGest",
+    "tagline": "Il gestionale che i dentisti meritano",
+    "description": "Software gestionale per studi dentistici italiani"
+  },
+  "common": {
+    "save": "Salva",
+    "cancel": "Annulla",
+    "delete": "Elimina",
+    "edit": "Modifica",
+    "add": "Aggiungi",
+    "search": "Cerca",
+    "loading": "Caricamento...",
+    "error": "Errore",
+    "success": "Operazione completata",
+    "confirm": "Conferma",
+    "back": "Indietro",
+    "next": "Avanti",
+    "close": "Chiudi",
+    "yes": "Si",
+    "no": "No",
+    "all": "Tutti",
+    "none": "Nessuno",
+    "actions": "Azioni",
+    "details": "Dettagli",
+    "status": "Stato",
+    "date": "Data",
+    "time": "Ora",
+    "notes": "Note"
+  },
+  "auth": {
+    "login": "Accedi",
+    "logout": "Esci",
+    "register": "Registrati",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Password dimenticata?",
+    "rememberMe": "Ricordami",
+    "welcomeBack": "Bentornato",
+    "createAccount": "Crea un account"
+  },
+  "navigation": {
+    "dashboard": "Dashboard",
+    "patients": "Pazienti",
+    "appointments": "Appuntamenti",
+    "calendar": "Agenda",
+    "treatments": "Trattamenti",
+    "billing": "Fatturazione",
+    "invoices": "Fatture",
+    "settings": "Impostazioni",
+    "profile": "Profilo",
+    "help": "Aiuto"
+  },
+  "patients": {
+    "title": "Pazienti",
+    "newPatient": "Nuovo Paziente",
+    "patientDetails": "Dettagli Paziente",
+    "patientList": "Lista Pazienti",
+    "searchPatient": "Cerca paziente...",
+    "noPatients": "Nessun paziente trovato",
+    "fields": {
+      "firstName": "Nome",
+      "lastName": "Cognome",
+      "codiceFiscale": "Codice Fiscale",
+      "birthDate": "Data di Nascita",
+      "birthPlace": "Luogo di Nascita",
+      "gender": "Sesso",
+      "phone": "Telefono",
+      "email": "Email",
+      "address": "Indirizzo",
+      "city": "Citta",
+      "cap": "CAP",
+      "province": "Provincia",
+      "emergencyContact": "Contatto di Emergenza",
+      "emergencyPhone": "Telefono Emergenza",
+      "notes": "Note"
+    },
+    "medicalHistory": {
+      "title": "Anamnesi",
+      "allergies": "Allergie",
+      "medications": "Farmaci in uso",
+      "conditions": "Patologie",
+      "familyHistory": "Storia familiare",
+      "notes": "Note mediche"
+    },
+    "documents": {
+      "title": "Documenti",
+      "consent": "Consenso Informato",
+      "privacy": "Consenso Privacy",
+      "xrays": "Radiografie",
+      "upload": "Carica documento"
+    }
+  },
+  "appointments": {
+    "title": "Appuntamenti",
+    "newAppointment": "Nuovo Appuntamento",
+    "editAppointment": "Modifica Appuntamento",
+    "cancelAppointment": "Annulla Appuntamento",
+    "confirmAppointment": "Conferma Appuntamento",
+    "appointmentDetails": "Dettagli Appuntamento",
+    "noAppointments": "Nessun appuntamento",
+    "todayAppointments": "Appuntamenti di oggi",
+    "upcomingAppointments": "Prossimi appuntamenti",
+    "status": {
+      "scheduled": "Programmato",
+      "confirmed": "Confermato",
+      "inProgress": "In corso",
+      "completed": "Completato",
+      "cancelled": "Annullato",
+      "noShow": "Non presentato"
+    },
+    "fields": {
+      "patient": "Paziente",
+      "dentist": "Dentista",
+      "date": "Data",
+      "time": "Ora",
+      "duration": "Durata",
+      "treatment": "Trattamento",
+      "notes": "Note",
+      "room": "Sala"
+    },
+    "reminders": {
+      "title": "Promemoria",
+      "sms": "Invia SMS",
+      "email": "Invia Email",
+      "sent": "Promemoria inviato"
+    }
+  },
+  "treatments": {
+    "title": "Trattamenti",
+    "categories": {
+      "preventive": "Prevenzione",
+      "restorative": "Conservativa",
+      "endodontic": "Endodonzia",
+      "prosthetic": "Protesi",
+      "surgical": "Chirurgia",
+      "orthodontic": "Ortodonzia",
+      "periodontic": "Parodontologia",
+      "cosmetic": "Estetica"
+    },
+    "items": {
+      "cleaning": "Pulizia dentale",
+      "filling": "Otturazione",
+      "extraction": "Estrazione",
+      "implant": "Impianto",
+      "whitening": "Sbiancamento",
+      "crown": "Corona",
+      "rootCanal": "Devitalizzazione",
+      "scaling": "Detartrasi",
+      "xray": "Radiografia",
+      "checkup": "Visita di controllo",
+      "bridge": "Ponte",
+      "denture": "Protesi mobile",
+      "veneer": "Faccetta",
+      "braces": "Apparecchio ortodontico",
+      "invisalign": "Allineatore trasparente",
+      "gingivectomy": "Gengivectomia",
+      "boneSurgery": "Chirurgia ossea"
+    },
+    "fields": {
+      "name": "Nome trattamento",
+      "description": "Descrizione",
+      "price": "Prezzo",
+      "duration": "Durata stimata",
+      "tooth": "Dente",
+      "notes": "Note"
+    }
+  },
+  "billing": {
+    "title": "Fatturazione",
+    "newInvoice": "Nuova Fattura",
+    "newEstimate": "Nuovo Preventivo",
+    "invoiceList": "Lista Fatture",
+    "estimateList": "Lista Preventivi",
+    "fields": {
+      "invoiceNumber": "Numero Fattura",
+      "date": "Data",
+      "dueDate": "Scadenza",
+      "patient": "Paziente",
+      "items": "Voci",
+      "subtotal": "Subtotale",
+      "tax": "IVA",
+      "total": "Totale",
+      "paid": "Pagato",
+      "balance": "Saldo"
+    },
+    "status": {
+      "draft": "Bozza",
+      "sent": "Inviata",
+      "paid": "Pagata",
+      "overdue": "Scaduta",
+      "cancelled": "Annullata"
+    },
+    "payment": {
+      "cash": "Contanti",
+      "card": "Carta",
+      "bankTransfer": "Bonifico",
+      "check": "Assegno"
+    },
+    "electronic": {
+      "title": "Fattura Elettronica",
+      "sdi": "Codice SDI",
+      "pec": "PEC",
+      "sendToSdi": "Invia a SDI",
+      "tesseraSanitaria": "Tessera Sanitaria"
+    }
+  },
+  "dentists": {
+    "title": "Dentisti",
+    "fields": {
+      "name": "Nome",
+      "specialization": "Specializzazione",
+      "email": "Email",
+      "phone": "Telefono"
+    },
+    "specializations": {
+      "general": "Odontoiatra Generale",
+      "orthodontist": "Ortodontista",
+      "endodontist": "Endodontista",
+      "periodontist": "Parodontologo",
+      "prosthodontist": "Protesista",
+      "surgeon": "Chirurgo Orale",
+      "pediatric": "Pedodontista",
+      "hygienist": "Igienista Dentale"
+    }
+  },
+  "calendar": {
+    "today": "Oggi",
+    "day": "Giorno",
+    "week": "Settimana",
+    "month": "Mese",
+    "agenda": "Agenda",
+    "noEvents": "Nessun evento"
+  },
+  "settings": {
+    "title": "Impostazioni",
+    "practice": {
+      "title": "Studio",
+      "name": "Nome Studio",
+      "address": "Indirizzo",
+      "phone": "Telefono",
+      "email": "Email",
+      "piva": "Partita IVA",
+      "logo": "Logo"
+    },
+    "notifications": {
+      "title": "Notifiche",
+      "email": "Notifiche Email",
+      "sms": "Notifiche SMS",
+      "reminders": "Promemoria appuntamenti"
+    },
+    "integrations": {
+      "title": "Integrazioni",
+      "sdi": "Fattura Elettronica (SDI)",
+      "tesseraSanitaria": "Tessera Sanitaria"
+    }
+  },
+  "errors": {
+    "required": "Campo obbligatorio",
+    "invalidEmail": "Email non valida",
+    "invalidPhone": "Numero di telefono non valido",
+    "invalidCodiceFiscale": "Codice Fiscale non valido",
+    "generic": "Si e verificato un errore",
+    "notFound": "Non trovato",
+    "unauthorized": "Non autorizzato"
+  },
+  "gender": {
+    "male": "Maschio",
+    "female": "Femmina",
+    "other": "Altro"
+  },
+  "days": {
+    "monday": "Lunedi",
+    "tuesday": "Martedi",
+    "wednesday": "Mercoledi",
+    "thursday": "Giovedi",
+    "friday": "Venerdi",
+    "saturday": "Sabato",
+    "sunday": "Domenica"
+  },
+  "months": {
+    "january": "Gennaio",
+    "february": "Febbraio",
+    "march": "Marzo",
+    "april": "Aprile",
+    "may": "Maggio",
+    "june": "Giugno",
+    "july": "Luglio",
+    "august": "Agosto",
+    "september": "Settembre",
+    "october": "Ottobre",
+    "november": "Novembre",
+    "december": "Dicembre"
+  }
+}
