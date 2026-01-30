@@ -23,8 +23,14 @@ const AdminPage = () => {
 
   useEffect(() => {
     const fetchAppointments = async () => {
-      const data = await getRecentAppointmentList();
-      setAppointments(data);
+      try {
+        const data = await getRecentAppointmentList();
+        setAppointments(data || { scheduledCount: 0, pendingCount: 0, cancelledCount: 0, documents: [] });
+      } catch (error) {
+        console.error("Failed to fetch appointments:", error);
+        // Set empty data so page still loads
+        setAppointments({ scheduledCount: 0, pendingCount: 0, cancelledCount: 0, documents: [] });
+      }
     };
 
     fetchAppointments();
